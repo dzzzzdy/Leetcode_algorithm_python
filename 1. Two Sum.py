@@ -11,7 +11,7 @@ class Solution(object):
                 two_sum = nums[i] + nums[j]
                 if j > i and two_sum == target:
                     return i, j
-### Hashmap 2
+### Hashmap 1
 class Solution(object):
     def twoSum(self, nums, target):
         """
