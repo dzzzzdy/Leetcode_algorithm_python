@@ -34,7 +34,7 @@ class Solution(object):
             nums1[last] = nums2[n - 1]
             n -= 1
             last -= 1
-#Solution 2
+#Solution 3
 #I don't like this one
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
